@@ -1,0 +1,90 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-buttons button {
+    margin-left: 5px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+}
+
+.update-button {
+    background-color: #3498db;
+}
+
+.complete-button {
+    background-color: #2ecc71;
+}
+
+.task-item.completed {
+    text-decoration: line-through;
+    color: #888;
+}
